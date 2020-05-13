@@ -42,7 +42,7 @@ Defined by vendor:
 5. _P_: maximal possible power to be produced (capacity), units: W
 
 ### Prediction logic
-How the power prediction works is presented in the following example:
+How power prediction works is presented in the following example:
 
 ```
 from typing import Tuple
@@ -123,7 +123,7 @@ Constants related to provided data:
 
 1. _A<sub>r</sub>_: referential altitude (to which wind speed is provided), units: m
 
-2. _L_: coefficient for height tranformation, used for calibrating of wind speed if it is meassured in a different altitude then height of installation, unit: unitless
+2. _L_: coefficient for height transformation, used for calibrating of wind speed if it is measured in a different altitude then the height of installation, unit: unitless
 
 #### Installation dependant parameters
 Provided by vendor.
